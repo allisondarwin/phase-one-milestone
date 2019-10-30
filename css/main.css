@@ -1,1 +1,140 @@
+/*** base styles ***/
 
+body {
+  color: #2F243A;
+  font-family: Roboto, sans-serif;
+}
+#portfolio {
+  height: 1450px;
+}
+#about {
+  height: 600px;
+}
+#contact {
+  height: 450px;
+}
+
+/*** grid ***/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+.half-width {
+  width: 600px;
+  float: left;
+}
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/*** header ***/
+
+header {
+  height: 800px;
+  background: url('../img/hero-img.jpeg');
+  background-size: cover;
+}
+header h1 {
+  padding: 65px 0 65px 25px;
+  font-family: Lora, serif;
+  font-size: 30px;
+}
+nav {
+  float: right;
+  padding: 75px 25px;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  color: #2F243A;
+  font-family: Lora, serif;
+  font-size: 30px;
+  font-weight: 700;
+  padding-left: 45px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+header h2 {    /*Come back to this and try to position heading with float to right*/
+  width: 700px;
+  clear: both;
+  font-family: Lora, serif;
+  font-size: 42px;
+  line-height: 1.25;
+  padding: 20px 0 20px 500px;
+}
+header h2 span {
+  color: #004d00;
+}
+
+/*** portfolio ***/
+
+#portfolio .full-width {
+  padding: 50px 0;
+  overflow: auto;
+}
+#portfolio article {
+  clear: both;
+  margin-top: 50px;
+  overflow: auto;
+}
+#portfolio h2 {
+  font-family: Lora, serif;
+  font-size: 36px;
+  margin: 0;
+  padding-bottom: 50px;
+  text-align: center;
+}
+#portfolio h3 {
+  font-family: Lora, serif;
+  font-size: 24px;
+  margin: 0;
+}
+#portfolio p {
+  font-size: 24px;
+  margin-top: 0px;
+}
+#portfolio img {
+  border: solid 1px #b7b7b7;
+}
+
+/*** about ***/
+
+#about {
+  background: #2F243A;
+  color: white;
+}
+#about .full-width {
+  padding: 50px 0;
+  overflow: auto;
+}
+#about h2 {
+  font-family: Lora, serif;
+  font-size: 36px;
+  margin: 0;
+  padding-bottom: 50px;
+  text-align: center;
+}
+#about h3 {
+    font-size: 24px;
+    margin: 0;
+}
+#about p {
+  font-size: 24px;
+}
+
+/*** contact ***/
+
+#contact {
+  background: #625C7B;
+  color: white;
+}
+
+/*** footer ***/
+
+footer {
+  background: #625C7B;
+  color: white;
+}
