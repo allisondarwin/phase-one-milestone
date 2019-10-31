@@ -4,12 +4,15 @@ body {
   color: #2F243A;
   font-family: Roboto, sans-serif;
 }
+
 #portfolio {
   height: 1450px;
 }
+
 #about {
   height: 600px;
 }
+
 #contact {
   height: 450px;
 }
@@ -20,10 +23,12 @@ body {
   width: 1200px;
   margin: 0 auto;
 }
+
 .half-width {
   width: 600px;
   float: left;
 }
+
 .third-width {
   width: 400px;
   float: left;
@@ -36,11 +41,13 @@ header {
   background: url('../img/hero-img.jpeg');
   background-size: cover;
 }
+
 header h1 {
   padding: 65px 0 65px 25px;
   font-family: Lora, serif;
   font-size: 30px;
 }
+
 nav {
   float: right;
   padding: 75px 25px;
@@ -48,6 +55,7 @@ nav {
 nav ul li {
   display: inline-block;
 }
+
 nav ul li a {
   color: #2F243A;
   font-family: Lora, serif;
@@ -57,6 +65,7 @@ nav ul li a {
   text-transform: capitalize;
   text-decoration: none;
 }
+
 header h2 {    /*Come back to this and try to position heading with float to right*/
   width: 700px;
   clear: both;
@@ -65,6 +74,7 @@ header h2 {    /*Come back to this and try to position heading with float to rig
   line-height: 1.25;
   padding: 20px 0 20px 500px;
 }
+
 header h2 span {
   color: #004d00;
 }
@@ -75,11 +85,13 @@ header h2 span {
   padding: 50px 0;
   overflow: auto;
 }
+
 #portfolio article {
   clear: both;
   margin-top: 50px;
   overflow: auto;
 }
+
 #portfolio h2 {
   font-family: Lora, serif;
   font-size: 36px;
@@ -92,10 +104,12 @@ header h2 span {
   font-size: 24px;
   margin: 0;
 }
+
 #portfolio p {
   font-size: 24px;
   margin-top: 0px;
 }
+
 #portfolio img {
   border: solid 1px #b7b7b7;
 }
@@ -106,10 +120,12 @@ header h2 span {
   background: #2F243A;
   color: white;
 }
+
 #about .full-width {
   padding: 50px 0;
   overflow: auto;
 }
+
 #about h2 {
   font-family: Lora, serif;
   font-size: 36px;
@@ -117,10 +133,12 @@ header h2 span {
   padding-bottom: 50px;
   text-align: center;
 }
+
 #about h3 {
     font-size: 24px;
     margin: 0;
 }
+
 #about p {
   font-size: 24px;
 }
@@ -131,10 +149,12 @@ header h2 span {
   background: #625C7B;
   color: white;
 }
+
 #contact .full-width {
   padding: 50px 0 128px 0;
   overflow: auto;
 }
+
 #contact h2 {
   font-family: Lora, serif;
   font-size: 36px;
@@ -147,11 +167,13 @@ header h2 span {
     margin: 0 0 30px 0;
     text-align: center;
 }
+
 #contact p {
   font-size: 24px;
   margin: 0;
   text-align: center;
 }
+
 #contact ul li {
   display: inline-block;
 }
@@ -159,6 +181,7 @@ header h2 span {
   padding-left: 45px;
   text-decoration: none;
 }
+
 #contact a#email {
   color: white;
   font-size: 24px;
@@ -172,6 +195,7 @@ footer {
   background: #625C7B;
   color: white;
 }
+
 footer .full-width {
   padding: 10px 0;
 }
